@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Blast",
+    name="BlastPY",
     version="1.0.0",
     author="W̷̛͒i̶̓͗l̷͗̌ľ̶͘",
     author_email="epicugric@gmail.com",

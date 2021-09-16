@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+BlastPY/BlastPY.egg-info/PKG-INFO
+BlastPY/BlastPY.egg-info/SOURCES.txt
+BlastPY/BlastPY.egg-info/dependency_links.txt
+BlastPY/BlastPY.egg-info/top_level.txt
