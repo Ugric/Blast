@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Blast",
-    version="0.0.1",
+    version="1.0.0",
     author="W̷̛͒i̶̓͗l̷͗̌ľ̶͘",
     author_email="epicugric@gmail.com",
     description="a machine learning framework by W̷̛͒i̶̓͗l̷͗̌ľ̶͘",
