@@ -1,9 +1,12 @@
 from BlastPY.AI import BlastAI
 
-
+# create AI or load from file
 ai = BlastAI("FIRSTAI.dat")
 
-if len(ai.questions) == 0:
+if len(ai.questions) == 0:  # check if no questions have been added
+
+    # add questions
+    # [list-of-input-to-AI, list-of-wanted-outputs-from-AI]
     ai.appendQuestions([[[0], [0]],
                         [[1], [1]],
                         [[2], [2]],
@@ -18,6 +21,12 @@ if len(ai.questions) == 0:
                         ])
 
 while True:
+
+    # the AI generation
     print(ai.gen)
+
+    # examen the AI
     print(ai.exam(1000))
+
+    # compile the AI to python code
     open("compiled.py", "w").write(ai.toPythonCode())
