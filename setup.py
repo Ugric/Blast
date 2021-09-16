@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-YOUR-USERNAME-HERE",
+    name="Blast",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="W̷̛͒i̶̓͗l̷͗̌ľ̶͘",
+    author_email="epicugric@gmail.com",
+    description="a machine learning framework by W̷̛͒i̶̓͗l̷͗̌ľ̶͘",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Ugric/Blast",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/Ugric/Blast/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
